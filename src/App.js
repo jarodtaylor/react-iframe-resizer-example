@@ -10,7 +10,7 @@ class App extends Component {
         <div className="header"><div className="contain">Header (not part of iframe)</div></div>
         <div className="contain">
           <div className="left-col">
-            <ReactIframeResizer src="//localhost:3000/login.html" iframeResizerOptions={iframeResizerOptions}/>
+            <ReactIframeResizer src="/login.html" iframeResizerOptions={iframeResizerOptions}/>
           </div>
           <div className="right-col">
             Right Column (not part of iframe)
